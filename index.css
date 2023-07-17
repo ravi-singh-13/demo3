@@ -1,150 +1,27 @@
-
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-      margin:0px;
-    }
-
-    .header{
-      background-color: #ffffff;
-      position:absolute;
-      top:0;
-      right:0;
-      left:0;
-      justify-content: space-between;
-      -webkit-box-pack: justify;
-    justify-content: space-between;
-    height: 64px;
-    background-color: white;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
-    padding-left: 16px;
-    padding-right: 16px
-    }
-
-    .header .left{
-      display: flex;
-      -webkit-box-pack: start;
-      justify-content: start;
-      -webkit-box-align: center;
-      align-items: center;
-  }
-    
-    .header .center{
-      
-        display: flex;
-        -webkit-box-pack: center;
-        justify-content: center;
-        margin: 0px 8px;
-        -webkit-box-align: center;
-        align-items: center;
-    
-    }
-
-    .header .right{
-      display: flex;
-      -webkit-box-pack: end;
-      justify-content: end;
-      -webkit-box-align: center;
-      align-items: center;
-  }
-    .header-a{
-      
-        height: 40px;
-        padding-top: 4px;
-        text-decoration: none;
-        display: flex;
-        -webkit-box-align: center;
-        align-items: center;
-    }
-
-    .container {
-      position:relative;
-      max-width: 400px;
-      margin: auto auto;
-      background-color: #ffffff;
-      border: 1px solid #ccc;
-      padding: 20px;
-      border-radius: 5px;
-      top:30vh;
-    }
-    
-    label, input {
-      display: block;
-      margin-bottom: 10px;
-    }
-    button {
-      background-color: rgb(0, 105, 236);;
-      color: #ffffff;
-      border: none;
-      padding: 10px 20px;
-      cursor: pointer;
-      border-radius: 5px;
-    }
-    button:hover {
-      background-color: #45a049;
-    }
-
-    input{
-      width: 100%;
-      min-height: 48px;
-    }
-
-    .ink-secondary-button{
-      margin-top: 1rem;
-      width:100%;
-      min-height: 48px;
-      background-color: transparent;
-      color: rgba(25, 24, 35, 0.9);
-    }
-
-  .ink-secondary-button a{
-    width: 100%;
-    padding: auto;
-    text-align:center;
-    display:block;
-    vertical-align: middle;
-    background-color: transparent;
-    color: rgba(25, 24, 35, 0.9);
-    text-decoration: none;
-  }    
-
-    .ink-secondary-button span{
-      
-      text-align:center;display:block;
-      color: rgba(25, 24, 35, 0.9);
-    }
-
-    .ink-footer{
-      width:100%;
-      position:fixed;
-      bottom: 0;
-    }
-
-    footer{
-      
-        background-color: rgb(255, 255, 255);
-        border-top: 1px solid rgb(204, 204, 204);
-        line-height: 12px;
-        padding-left: 24px;
-        padding-right: 24px;
-        font-size: 10px;
-        color: rgba(25, 24, 35, 0.9);
-        overflow: hidden;
-        font-family: "DS Indigo", DSIndigo, "Neue Haas Grotesk", NeueHaasGrotesk, Helvetica, Arial, sans-serif;
-    
-    }
-
-    .css-wqdnak-FOOTER_MAIN_ROW{
-      -webkit-box-align: center;
-    align-items: center;
-    display: flex;
-    -webkit-box-pack: justify;
-    justify-content: space-between;
-    margin: 10px 0px;
-    }
-
-    .css-1loe55a-FOOTER_LOGO{
-      display: flex;
-    white-space: nowrap;
+body{
+  background-color:  rgb(243,243,242);
 }
-    }
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  gap:10px;
+}
+.container a{
+  display: block;
+  color: blue;
+}
+
+.box{
+  background-color: white;
+  width: 100%;
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+.box img{
+  
+}
+.box h4{
+  display: inline-block;
+  margin-left: 5px;
+}
